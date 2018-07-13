@@ -1,5 +1,5 @@
 body {
-	background-image: url(../images/paper-bg.png);
+	background-image: url(../images/texture-bg.jpg);
 	margin: 0px 0px 0px 0px;
 	/* padding-bottom: 80px; */
 	;
@@ -7,7 +7,7 @@ body {
 #sidebar,
 #top-bar,
 #main-content {
-    background: white;
+    background: rgba(255,255,255,.5);
 
 }
 
