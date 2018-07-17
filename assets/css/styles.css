@@ -5,16 +5,51 @@ body {
 	;
 }
 #sidebar,
-#top-bar,
-#main-content {
+#top-bar {
     background: rgba(255,255,255,.5);
 
 }
 
+#about, #portfolio, #contact {
+	background: rgba(255,255,255,.5);
+	margin: 20px
+}
+
+
+
+
 .headshot {
     height: 150px;
     -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+	clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+	float: left;
+	margin-top: 10px
+}
+
+.triDown {
+	height: 150px;
+	-webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+	clip-path: polygon(50% 100%, 0 0, 100% 0);
+	float: left;
+	margin-left: -100px;
+	margin-top: 10px
+}
+
+.triUp {
+    height: 150px;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+	clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+	float: left;
+	margin-left: -100px;
+	margin-top: 10px
+}
+
+.headshot2 {
+	height: 150px;
+	-webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+	clip-path: polygon(50% 100%, 0 0, 100% 0);
+	float: left;
+	margin-top: 10px
 }
 
 .icon {
@@ -27,3 +62,4 @@ body {
 	height: 2px;
 	width:100%;
 	background: #cccccc;
+}
