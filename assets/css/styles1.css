@@ -8,7 +8,7 @@ body {
 
 }
 
-#landing {
+#landing, #selectedWorks {
 	margin: 0px 0px 0px 0px;
 	height: 100vh;
 	width:100vw;
@@ -84,3 +84,33 @@ body {
 	margin-top: 2vh;
 }
 
+.triBL {
+	width: 33vw;
+	height: calc(33vw/1.5);
+	-webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
+	clip-path: polygon(0 0, 0% 100%, 100% 100%);
+	background-size: cover
+}
+
+.triTR {
+	width: 33vw;
+	height: calc(33vw/1.5);
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 100%);
+	background-size: cover
+}
+
+
+#worksOne {
+	background-image: url(../images/crane.jpg);
+
+}
+
+
+@media screen and (max-width: 800px) {
+
+	.lowerRow {
+		flex: 2
+	}
+
+}
