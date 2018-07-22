@@ -88,19 +88,13 @@ body {
 }
 
 .triBL {
-	width: 33vw;
-	height: calc(33vw/1.5);
 	-webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
 	clip-path: polygon(0 0, 0% 100%, 100% 100%);
-	background-size: cover
 }
 
 .triTR {
-	width: 33vw;
-	height: calc(33vw/1.5);
 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%);
 	clip-path: polygon(0 0, 100% 0, 100% 100%);
-	background-size: cover
 }
 
 
@@ -115,6 +109,9 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0;
+	width: 33vw;
+	height: calc(33vw/1.5);
+	background-size: cover
 }
 
 /* Selected Works One Images */

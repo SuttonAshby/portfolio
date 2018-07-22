@@ -39,5 +39,13 @@ $('a[href*="#"]')
     }
   });
 
+$("#worksOneCode").hover(function(){
+  $("#worksOneCode").removeClass("triBL");
+  $("#worksOneSite").css("visibility", "hidden")
 
+}, function(){
+  $("#worksOneCode").addClass("triBL");
+  $("#worksOneSite").css("visibility", "visible")
+
+})
 
