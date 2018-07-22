@@ -15,6 +15,9 @@ body {
 	display: flex;
 	flex-direction: column;
 }
+#selectedWorks {
+	flex-wrap: wrap
+}
 
 #selectedWorks, #contact, #about {
 	height: 100vh;
@@ -101,11 +104,61 @@ body {
 }
 
 
-#worksOne {
-	background-image: url(../images/crane.jpg);
-
+#worksOne, #worksTwo, #worksThree,
+#worksFour, #worksFive, #worksSix {
+	width: 33vw;
+	height: calc(33vw/1.5);
+	position: relative;
 }
 
+.portfolioPositioning {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* Selected Works One Images */
+#worksOneCode {
+	background-image: url(../images/crane.jpg);
+}
+#worksOneSite {
+	background-image: url(../images/headshot.jpg);
+}
+/* Selected Works Two Images */
+#worksTwoCode {
+	background-image: url(../images/crane.jpg);
+}
+#worksTwoSite {
+	background-image: url(../images/headshot.jpg);
+}
+/* Selected Works Three Images */
+#worksThreeCode {
+	background-image: url(../images/crane.jpg);
+}
+#worksThreeSite {
+	background-image: url(../images/headshot.jpg);
+}
+/* Selected Works Four Images */
+#worksFourCode {
+	background-image: url(../images/crane.jpg);
+}
+#worksFourSite {
+	background-image: url(../images/headshot.jpg);
+}
+/* Selected Works Five Images */
+#worksFiveCode {
+	background-image: url(../images/crane.jpg);
+}
+#worksFiveSite {
+	background-image: url(../images/headshot.jpg);
+}
+/* Selected Works Six Images */
+#worksSixCode {
+	background-image: url(../images/crane.jpg);
+}
+#worksSixSite {
+	background-image: url(../images/headshot.jpg);
+}
 
 @media screen and (max-width: 800px) {
 
