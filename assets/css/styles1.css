@@ -114,46 +114,51 @@ body {
 	background-size: cover
 }
 
+worksCode, worksSite {
+	-webkit-transition: opacity 20s;
+	transition: opacity 20s;
+}
+
 /* Selected Works One Images */
-#worksOneCode {
+#worksOne-Code {
 	background-image: url(../images/RPSLVcode.png);
 }
-#worksOneSite {
+#worksOne-Site {
 	background-image: url(../images/RPSLVsite.png);
 }
 /* Selected Works Two Images */
-#worksTwoCode {
+#worksTwo-Code {
 	background-image: url(../images/crane.jpg);
 }
-#worksTwoSite {
+#worksTwo-Site {
 	background-image: url(../images/headshot.jpg);
 }
 /* Selected Works Three Images */
-#worksThreeCode {
+#worksThree-Code {
 	background-image: url(../images/crane.jpg);
 }
-#worksThreeSite {
+#worksThree-Site {
 	background-image: url(../images/headshot.jpg);
 }
 /* Selected Works Four Images */
-#worksFourCode {
+#worksFour-Code {
 	background-image: url(../images/crane.jpg);
 }
-#worksFourSite {
+#worksFour-Site {
 	background-image: url(../images/headshot.jpg);
 }
 /* Selected Works Five Images */
-#worksFiveCode {
+#worksFive-Code {
 	background-image: url(../images/crane.jpg);
 }
-#worksFiveSite {
+#worksFive-Site {
 	background-image: url(../images/headshot.jpg);
 }
 /* Selected Works Six Images */
-#worksSixCode {
+#worksSix-Code {
 	background-image: url(../images/crane.jpg);
 }
-#worksSixSite {
+#worksSix-Site {
 	background-image: url(../images/headshot.jpg);
 }
 

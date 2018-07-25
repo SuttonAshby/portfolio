@@ -39,13 +39,28 @@ $('a[href*="#"]')
     }
   });
 
-$("#worksOneCode").hover(function(){
-  $("#worksOneCode").removeClass("triBL");
-  $("#worksOneSite").css("visibility", "hidden")
-
+$(".worksCode").hover(function(){
+  $(this).removeClass("triBL");
+  let work = $(this).attr("id").split("-")[0]
+  work = `#${work}-Site`
+  $(work).css("opacity", 0)
 }, function(){
-  $("#worksOneCode").addClass("triBL");
-  $("#worksOneSite").css("visibility", "visible")
-
+  $(".worksCode").addClass("triBL");
+  let work = $(this).attr("id").split("-")[0]
+  work = `#${work}-Site`
+  $(work).css("opacity", 1)
 })
 
+$(".worksSite").hover(function(){
+  $(this).removeClass("triTR");
+  let work = $(this).attr("id").split("-")[0]
+  work = `#${work}-Code`
+  $(work).css("opacity", 0)
+  $(work).css("z-index", 1)
+}, function(){
+  $(".worksSite").addClass("triTR");
+  let work = $(this).attr("id").split("-")[0]
+  work = `#${work}-Code`
+  $(work).css("opacity", 1)
+  $(work).css("z-index", "auto")
+})
