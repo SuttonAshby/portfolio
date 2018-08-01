@@ -17,9 +17,9 @@ body {
 }
 #selectedWorks {
 	flex-wrap: wrap;
-	flex-direction: row;
+	/* flex-direction: row; */
 
-	justify-content: center;
+	/* justify-content: center; */
 	align-content: center
 }
 
