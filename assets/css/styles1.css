@@ -132,24 +132,24 @@ worksCode, worksSite {
 }
 /* Selected Works Two Images */
 #worksTwo-Code {
-	background-image: url(../images/crane.jpg);
+	background-image: url(../images/fightClubCode.png);
 }
 #worksTwo-Site {
-	background-image: url(../images/headshot.jpg);
+	background-image: url(../images/fightClubSite.png);
 }
 /* Selected Works Three Images */
 #worksThree-Code {
-	background-image: url(../images/crane.jpg);
+	background-image: url(../images/starWarsCode.png);
 }
 #worksThree-Site {
-	background-image: url(../images/headshot.jpg);
+	background-image: url(../images/starWarsSite.png);
 }
 /* Selected Works Four Images */
 #worksFour-Code {
-	background-image: url(../images/crane.jpg);
+	background-image: url(../images/triviaGameCode.png);
 }
 #worksFour-Site {
-	background-image: url(../images/headshot.jpg);
+	background-image: url(../images/triviaGameSite.png);
 }
 /* Selected Works Five Images */
 #worksFive-Code {
