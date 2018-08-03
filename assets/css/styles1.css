@@ -1,6 +1,7 @@
 body {
 	background-image: url(../images/texture-bg.jpg);
 	margin: 0px 0px 0px 0px;
+	padding-top: 100vh;
 	/* height: 100vh;
 	width:100vw;
 	display: flex;
@@ -13,6 +14,8 @@ h2 {
 }
 
 #landing {
+	position: fixed;
+	top: 0;
 	margin: 0px 0px 0px 0px;
 	height: 100vh;
 	width:100vw;
@@ -20,21 +23,31 @@ h2 {
 	flex-direction: column;
 }
 
+#content {
+	position: relative;
+	background-image: url(../images/texture-bg.jpg);
+}
+
+#selectedWorksTitle {
+	height: 10vh
+}
 
 #works {
 	display: flex;
 	flex-direction: column;
 	width: 100vw;
-	height: 100vh;
+	height: 90vh;
 	align-content: center;
 	flex-wrap: wrap;
 	margin: 0px 0px 0px 0px;
 }
 .worksWrapper {
-	width: 33vw
+	width: 33vw;
+	flex: 1;
 }
 
 #selectedWorks, #contact, #about {
+	position: relative;
 	height: 100vh;
 	width:100vw;
 	margin: 0px 0px 0px 0px;
@@ -176,10 +189,10 @@ worksCode, worksSite {
 }
 /* Selected Works Six Images */
 #worksSix-Code {
-	background-image: url(../images/crane.jpg);
+	background-image: url(../images/snapCosCode.png);
 }
 #worksSix-Site {
-	background-image: url(../images/headshot.jpg);
+	background-image: url(../images/snapCosApp.PNG);
 }
 
 @media screen and (max-width: 800px) {

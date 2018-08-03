@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <title>Sutton Ashby</title>
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script> -->
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/styles1.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -32,75 +32,98 @@
             <img src="assets/images/developer2.png" class="triSix">
         </div>
     </div>
-    <div id="selectedWorks">
-        <div id="selectedWorksTitle">
-            <h1>Selected Works</h1>
-            <h2>Click on the code to go to the repository click on the site to go there (if there is one)</h2>
+    <div id="content">
+        <div id="selectedWorks">
+            <div class="sticky-top" id="selectedWorksTitle">
+                <div style="float: left">
+                    <h1>Selected Works</h1>
+                    <h2>Click on the code to go to the repository click on the site to go there (if there is one)</h2>
+                </div>
+                <div style="float: right">
+                    <p>hello</p>
+                </div>
+            </div>
+            <div id="works">
+                <div class="worksWrapper">
+                    <h2>Rock Paper Scissors Lizard Spock Game</h2>
+                    <p>Real-time multiplayer game</p>
+                    <div id="worksOne">
+                        <a href="https://github.com/SuttonAshby/RPS-Multiplayer">
+                            <div class="triBL portfolioPositioning worksCode" id="worksOne-Code"></div>
+                        </a>
+                        <a href="https://suttonashby.github.io/RPS-Multiplayer/">
+                            <div class="triTR portfolioPositioning worksSite" id="worksOne-Site"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="worksWrapper">
+                    <h2>Fight Club Game</h2>
+                    <p>Asymmetric multiplayer RPG game</p>
+                    <div id="worksTwo">
+                        <a href="https://github.com/SuttonAshby/RPG-project">
+                            <div class="triBL portfolioPositioning worksCode" id="worksTwo-Code"></div>
+                        </a>
+                        <a href="https://sleepy-harbor-31987.herokuapp.com/">
+                            <div class="triTR portfolioPositioning worksSite" id="worksTwo-Site"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="worksWrapper">
+                    <h2>Star Wars Combat Game</h2>
+                    <p>Combat Puzzler</p>
+                    <div id="worksThree">
+                        <a href="https://github.com/SuttonAshby/week-4-game">
+                            <div class="triBL portfolioPositioning worksCode" id="worksThree-Code"></div>
+                        </a>
+                        <a href="https://suttonashby.github.io/week-4-game/">
+                            <div class="triTR portfolioPositioning worksSite" id="worksThree-Site"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="worksWrapper">
+                    <h2>Trivia Game</h2>
+                    <p>Science Fiction and Fantasy Trivia Game</p>
+                    <div id="worksFour">
+                        <a href="https://github.com/SuttonAshby/TriviaGame">
+                            <div class="triBL portfolioPositioning worksCode" id="worksFour-Code"></div>
+                        </a>
+                        <a href="https://suttonashby.github.io/TriviaGame/">
+                            <div class="triTR portfolioPositioning worksSite" id="worksFour-Site"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="worksWrapper">
+                    <h2>Node.js Assistant</h2>
+                    <p>Node based CLI for spotify and imdb look ups</p>
+                    <div id="worksFive">
+                        <a href="https://github.com/SuttonAshby/liri-node-app">
+                            <div class="triBL portfolioPositioning worksCode" id="worksFive-Code"></div>
+                        </a>
+                        <a href="https://github.com/SuttonAshby/liri-node-app">
+                            <div class="triTR portfolioPositioning worksSite" id="worksFive-Site"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="worksWrapper">
+                    <h2>SnapCos</h2>
+                    <p>React Native app for taking pictures at conventions</p>
+                    <div id="worksSix">
+                        <a href="https://github.com/SuttonAshby/snapCosApp">
+                            <div class="triBL portfolioPositioning worksCode" id="worksSix-Code"></div>
+                        </a>
+                        <a href="https://github.com/SuttonAshby/snapCosApp">
+                            <div class="triTR portfolioPositioning worksSite" id="worksSix-Site"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div id="works">
-            <div class="worksWrapper">
-                <h2>Rock Paper Scissors Lizard Spock Game</h2>
-                <p>Real-time multiplayer game</p>
-                <div id="worksOne">
-                    <a href="https://github.com/SuttonAshby/RPS-Multiplayer">
-                        <div class="triBL portfolioPositioning worksCode" id="worksOne-Code"></div>
-                    </a>
-                    <a href="https://suttonashby.github.io/RPS-Multiplayer/">
-                        <div class="triTR portfolioPositioning worksSite" id="worksOne-Site"></div>
-                    </a>
-                </div>
-            </div>
-            <div class="worksWrapper">
-                <h2>Fight Club Game</h2>
-                <p>Asymmetric multiplayer RPG game</p>
-                <div id="worksTwo">
-                    <a href="https://github.com/SuttonAshby/RPG-project">
-                        <div class="triBL portfolioPositioning worksCode" id="worksTwo-Code"></div>
-                    </a>
-                    <a href="https://sleepy-harbor-31987.herokuapp.com/">
-                        <div class="triTR portfolioPositioning worksSite" id="worksTwo-Site"></div>
-                    </a>
-                </div>
-            </div>
-            <div class="worksWrapper"> 
-                <h2>Star Wars Combat Game</h2>
-                <p>Combat Puzzler</p>
-                <div id="worksThree">
-                    <div class="triBL portfolioPositioning worksCode" id="worksThree-Code"></div>
-                    <div class="triTR portfolioPositioning worksSite" id="worksThree-Site"></div>
-                </div>
-            </div>
-            <div class="worksWrapper">
-                <h2>Trivia Game</h2>
-                <p>Science Fiction and Fantasy Trivia Game</p>
-                <div id="worksFour">
-                    <div class="triBL portfolioPositioning worksCode" id="worksFour-Code"></div>
-                    <div class="triTR portfolioPositioning worksSite" id="worksFour-Site"></div>
-                </div>
-            </div>
-            <div class="worksWrapper">
-                <h2>Node.js Assistant</h2>
-                <p>Node based CLI for spotify and imdb look ups</p>
-                <div id="worksFive">
-                    <div class="triBL portfolioPositioning worksCode" id="worksFive-Code"></div>
-                    <div class="triTR portfolioPositioning worksSite" id="worksFive-Site"></div>
-                </div>
-            </div>
-            <div class="worksWrapper">
-                <h2>Rock Paper Scissors Lizard Spock Game</h2>
-                <p>Real-time multiplayer game</p>
-                <div id="worksSix">
-                    <div class="triBL portfolioPositioning worksCode" id="worksSix-Code"></div>
-                    <div class="triTR portfolioPositioning worksSite" id="worksSix-Site"></div>
-                </div>
-            </div>
+        <div id="about">
+            <p>Hello</p>
         </div>
-    </div>
-    <div id="about">
-        <p>Hello</p>
-    </div>
-    <div id="contact">
-        <p>Hello</p>
+        <div id="contact">
+            <p>Hello</p>
+        </div>
     </div>
 </body>
 <script src="assets/javascript/logic.js"></script>
