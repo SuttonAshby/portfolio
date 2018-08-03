@@ -8,6 +8,10 @@ body {
 
 }
 
+h2 {
+	width: 100%
+}
+
 #landing, #selectedWorks {
 	margin: 0px 0px 0px 0px;
 	height: 100vh;
@@ -15,12 +19,16 @@ body {
 	display: flex;
 	flex-direction: column;
 }
-#selectedWorks {
-	flex-wrap: wrap;
-	/* flex-direction: row; */
 
-	/* justify-content: center; */
-	align-content: center
+
+#works {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	/* height: 80vh; */
+	align-content: center;
+	flex-wrap: wrap;
+	margin: 0px 0px 0px 0px;
 }
 
 #selectedWorks, #contact, #about {
@@ -109,6 +117,11 @@ body {
 	position: relative;
 }
 
+#selectedWorksTitle {
+	width: 66vw
+}
+
+
 .portfolioPositioning {
 	position: absolute;
 	top: 0;
@@ -153,10 +166,10 @@ worksCode, worksSite {
 }
 /* Selected Works Five Images */
 #worksFive-Code {
-	background-image: url(../images/crane.jpg);
+	background-image: url(../images/liriCode.png);
 }
 #worksFive-Site {
-	background-image: url(../images/headshot.jpg);
+	background-image: url(../images/liriCLI.png);
 }
 /* Selected Works Six Images */
 #worksSix-Code {
