@@ -29,7 +29,7 @@ h2 {
 }
 
 #selectedWorksTitle {
-	height: 10vh
+	/* height: 10vh */
 }
 
 #works {
@@ -40,6 +40,9 @@ h2 {
 	align-content: center;
 	flex-wrap: wrap;
 	margin: 0px 0px 0px 0px;
+	/* padding-top: 10vh; */
+	position: absolute;
+	bottom: 0
 }
 .worksWrapper {
 	width: 33vw;
@@ -52,6 +55,21 @@ h2 {
 	width:100vw;
 	margin: 0px 0px 0px 0px;
 }
+
+.nav {
+	background-color: white;
+	height: 10vh;
+	z-index: 150;
+	width: 100%;
+	box-shadow: 0 2px 3px rgb(0, 0, 0, .4)
+}
+
+.navScrolled {
+	position: fixed;
+	top: 0;
+	width: 100vw;
+}
+
 
 .upperRow, .lowerRow {
 	display: flex;
@@ -132,11 +150,6 @@ h2 {
 	height: calc(33vw/1.5);
 	position: relative;
 }
-
-#selectedWorksTitle {
-	width: 66vw
-}
-
 
 .portfolioPositioning {
 	position: absolute;

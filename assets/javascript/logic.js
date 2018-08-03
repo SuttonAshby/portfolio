@@ -65,3 +65,12 @@ $(".worksSite").hover(function(){
   $(work).css("z-index", "auto")
 })
 
+var nav = $(".nav");
+
+$(window).scroll(function(){
+  if($(this).scrollTop() > $(window).height()){
+    nav.addClass("navScrolled")
+  } else {
+    nav.removeClass("navScrolled")
+  }
+});
