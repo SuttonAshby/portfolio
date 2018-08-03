@@ -67,6 +67,7 @@ $(".worksSite").hover(function(){
 
 var nav = $(".nav");
 var navTitle = $("#navTitle")
+var navSubtitle = $("#navSubtitle")
 
 $(window).scroll(function(){
   if($(this).scrollTop() > $(window).height()){
@@ -79,9 +80,12 @@ $(window).scroll(function(){
 $(window).scroll(function(){
   if($(this).scrollTop() > $(window).height() && $(this).scrollTop() < $(window).height()*2){
     navTitle.text("Selected Works")
+    navSubtitle.text("Click on the code to go to the repository click on the site to go there (if there should be one).")
   } else if ($(this).scrollTop() > $(window).height()*2 && $(this).scrollTop() < $(window).height()*2.5) {
     navTitle.text("About")
+    navSubtitle.text("Full Stack Web Developer Based out of Philadelphia, PA.")
   } else if ($(this).scrollTop() > $(window).height()*2.5) {
     navTitle.text("Contact")
+    navSubtitle.text("Contact me through Github, LinkedIn or StackOverflow.")
   }
 });

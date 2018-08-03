@@ -9,6 +9,11 @@ body {
 
 }
 
+#landingTarget {
+	padding-top: 100vh;
+	margin-top: -100vh
+}
+
 h2 {
 	max-width: 100%;
 }
@@ -40,7 +45,7 @@ h2 {
 	bottom: 0
 }
 
-#aboutInfo {
+#aboutInfo, #contactIcons {
 	margin-left: 15vw;
 	width: 70vw;
 	height: 40vh;
@@ -49,6 +54,17 @@ h2 {
 }
 .aboutText {
 	font: 1.5em "Open Sans"
+}
+
+#contactIcons {
+	height: 88vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.icon {
+	flex: 1;
 }
 
 .worksWrapper {
@@ -69,11 +85,11 @@ h2 {
 
 
 .nav {
-	background-color: white;
+	background: rgba(255,255,255,.8);
 	height: 10vh;
 	z-index: 150;
 	width: 100%;
-	box-shadow: 0 2px 3px rgb(0, 0, 0, .4)
+	box-shadow: 0 2px 3px rgb(0, 0, 0, .4);
 }
 
 .navScrolled {
@@ -81,6 +97,54 @@ h2 {
 	top: 0;
 	width: 100vw;
 }
+
+
+
+.navSquare {
+	height: 10vh;
+	width: 10vh;
+	position: relative;
+	float: right;
+	margin-right: 2vw;
+}
+
+#navHome, #navWorks,
+#navAbout, #navContact {
+	height: 5vh;
+	width: 5vh;
+	position: absolute;
+	background-size: cover
+
+}
+
+#navHome {
+	top: 0;
+	left: 0;
+	background-image: url(../images/navSquareHome.png);
+}
+
+#navWorks {
+	top: 0;
+	right: 0;
+	background-image: url(../images/navSquareWorks.png);
+}
+
+#navAbout {
+	bottom: 0;
+	left: 0;
+	background-image: url(../images/navSquareAbout.png);
+}
+
+#navContact {
+	bottom: 0;
+	right: 0;
+	background-image: url(../images/navSquareContact.png);
+}
+
+/* #navTitle, #navSubtitle {
+	display: inline;
+	float: left;
+} */
 
 
 .upperRow, .lowerRow {
@@ -150,9 +214,19 @@ h2 {
 	clip-path: polygon(0 0, 0% 100%, 100% 100%);
 }
 
+.triBR {
+	-webkit-clip-path: polygon(100% 100%, 0 100%, 100% 0);
+	clip-path: polygon(100% 100%, 0 100%, 100% 0);
+}
+
 .triTR {
 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%);
 	clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+
+.triTL {
+	-webkit-clip-path: polygon(0 0, 0 100%, 100% 0);
+clip-path: polygon(0 0, 0 100%, 100% 0);
 }
 
 

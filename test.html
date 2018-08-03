@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <div id="landingTarget">
     <div id="landing">
         <div class="upperRow">
             <img src="assets/images/crane.jpg" class="triOne">
@@ -34,9 +35,25 @@
     </div>
     <div id="content">
         <div id="selectedWorks">
-            <div class="nav" id="selectedWorksTitle">
-                <h1 id="navTitle">Selected Works</h1>
-                <h2>Click on the code to go to the repository click on the site to go there (if there is one)</h2>
+            <div class="nav">
+                <div style="float: left">
+                    <h1 id="navTitle">Selected Works</h1>
+                    <h2 id="navSubtitle">Click on the code to go to the repository click on the site to go there (if there should be one).</h2>
+                </div>
+                <div class="navSquare">
+                    <a href="#landingTarget">
+                        <div class="squarePositioning triBR" id="navHome"></div>
+                    </a>
+                    <a href="#selectedWorks">
+                        <div class="squarePositioning triBL" id="navWorks"></div>
+                    </a>
+                    <a href="#about">
+                        <div class="squarePositioning triTR" id="navAbout"></div>
+                    </a>
+                    <a href="#contact">
+                        <div class="squarePositioning triTL" id="navContact"></div>
+                    </a>
+                </div>
             </div>
             <div id="works">
                 <div class="worksWrapper">
@@ -125,7 +142,17 @@
             </div>
         </div>
         <div id="contact">
-            <p>Hello</p>
+            <div id="contactIcons">
+                <a href="https://github.com/SuttonAshby">
+                    <img src="assets/images/iconCircGithub.png" class="icon">
+                </a>
+                <a href="https://www.linkedin.com/in/sutton-ashby-8a1907158/">
+                    <img src="assets/images/iconCircLinkedin.png" class="icon">
+                </a>
+                <a href="https://stackoverflow.com/users/9318094/sutton-ashby">
+                    <img src="assets/images/iconCircStackoverflow.png" class="icon">
+                </a>
+            </div>
         </div>
     </div>
 </body>
