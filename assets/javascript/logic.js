@@ -66,11 +66,22 @@ $(".worksSite").hover(function(){
 })
 
 var nav = $(".nav");
+var navTitle = $("#navTitle")
 
 $(window).scroll(function(){
   if($(this).scrollTop() > $(window).height()){
     nav.addClass("navScrolled")
   } else {
     nav.removeClass("navScrolled")
+  }
+});
+
+$(window).scroll(function(){
+  if($(this).scrollTop() > $(window).height() && $(this).scrollTop() < $(window).height()*2){
+    navTitle.text("Selected Works")
+  } else if ($(this).scrollTop() > $(window).height()*2 && $(this).scrollTop() < $(window).height()*2.5) {
+    navTitle.text("About")
+  } else if ($(this).scrollTop() > $(window).height()*2.5) {
+    navTitle.text("Contact")
   }
 });

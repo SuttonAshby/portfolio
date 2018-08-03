@@ -28,10 +28,6 @@ h2 {
 	background-image: url(../images/texture-bg.jpg);
 }
 
-#selectedWorksTitle {
-	/* height: 10vh */
-}
-
 #works {
 	display: flex;
 	flex-direction: column;
@@ -40,10 +36,21 @@ h2 {
 	align-content: center;
 	flex-wrap: wrap;
 	margin: 0px 0px 0px 0px;
-	/* padding-top: 10vh; */
 	position: absolute;
 	bottom: 0
 }
+
+#aboutInfo {
+	margin-left: 15vw;
+	width: 70vw;
+	height: 40vh;
+	position: absolute;
+	bottom: 0;
+}
+.aboutText {
+	font: 1.5em "Open Sans"
+}
+
 .worksWrapper {
 	width: 33vw;
 	flex: 1;
@@ -55,6 +62,11 @@ h2 {
 	width:100vw;
 	margin: 0px 0px 0px 0px;
 }
+
+#about {
+	height: 50vh;
+}
+
 
 .nav {
 	background-color: white;
